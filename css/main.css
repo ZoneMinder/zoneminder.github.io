@@ -1,0 +1,26 @@
+body {
+	border-top: solid 5px #369;
+	color: #111111;
+}
+
+.navbar {
+  border:0;
+  border-radius: 0;
+}
+
+h2, h3 {
+  color: #016C9C;
+  border-bottom: solid 1px #369;
+}
+
+.current {
+	background-color: #FFF;
+}
+
+.current a {
+	color: #111111 !important;
+}
+
+.thumbs img {
+	border: 1px solid #AAA;
+}
