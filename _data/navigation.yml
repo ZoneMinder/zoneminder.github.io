@@ -22,3 +22,11 @@
 - text: Forums
   link: 'https://forums.zoneminder.com'
   target: '_blank'
+
+- text: Contact
+  link: '/contact/'
+  target: '_self'
+
+- text: Donate
+  link: '/donate'
+  target: '_self'
