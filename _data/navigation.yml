@@ -3,10 +3,6 @@
   link: '/'
   target: '_self'
 
-- text: Documentation
-  link: 'http://zoneminder.readthedocs.org/en/latest/'
-  target: '_blank'
-
 - text: Screenshots
   link: '/screenshots'
   target: '_self'
@@ -15,19 +11,26 @@
   link: '/downloads'
   target: '_self'
 
-  link: '/donate/'
-- text: Wiki
-  link: 'https://wiki.zoneminder.com'
-  target: '_blank'
-
-- text: Forums
-  link: 'https://forums.zoneminder.com'
-  target: '_blank'
-
 - text: Contact
   link: '/contact/'
   target: '_self'
 
 - text: Donate
-  link: '/donate'
+  link: '/donate/'
   target: '_self'
+
+- text: Documentation
+  link: 'http://zoneminder.readthedocs.org/en/latest/'
+  target: '_blank'
+  icon: 'glyphicon glyphicon-new-window'
+
+- text: Wiki
+  link: 'https://wiki.zoneminder.com'
+  target: '_blank'
+  icon: 'glyphicon glyphicon-new-window'
+
+- text: Forums
+  link: 'https://forums.zoneminder.com'
+  target: '_blank'
+  icon: 'glyphicon glyphicon-new-window'
+
