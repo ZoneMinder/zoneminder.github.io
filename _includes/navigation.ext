@@ -14,10 +14,14 @@
 			<ul class="nav navbar-nav">
 			{% assign navs = site.data.navigation %}
 			{% for nav in navs %}
-				{% if page.title == nav.text %}
+				{% if nav.target == '_self' %}
+					{% if page.title == nav.text %}
 				<li class="current"><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }}</a></li>
-				{% else %}
+					{% else %}
 				<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }}</a></li>
+					{% endif %}
+				{% else %}
+					<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }} <span class="{{ nav.icon }}"></span></a></li>
 				{% endif %}
 			{% endfor %}
 			</ul>
