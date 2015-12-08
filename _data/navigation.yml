@@ -15,6 +15,7 @@
   link: '/downloads'
   target: '_self'
 
+  link: '/donate/'
 - text: Wiki
   link: 'https://wiki.zoneminder.com'
   target: '_blank'
