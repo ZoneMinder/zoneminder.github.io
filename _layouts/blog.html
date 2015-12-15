@@ -1,0 +1,31 @@
+{% include head.html %}  
+
+		{% include navigation.ext %}
+
+	<div class="container">
+
+<div class="row">
+	<div class="col-md-9">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+				
+				{{ content }}
+	</div>
+
+	<div class="col-md-3 well">
+		<h3>Latest Entries</h3>
+
+		<ul>
+		  {% for post in site.posts %}
+		    <li>
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+		    </li>
+		  {% endfor %}
+		</ul>
+	</div>
+</div>
+	
+
+	</div>
+
+{% include footer.html %}
