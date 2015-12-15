@@ -28,3 +28,20 @@ h2, h3 {
 .thumbs img {
 	border: 1px solid #AAA;
 }
+
+.custom-bullet li {
+    display: block;
+}
+
+.custom-bullet li:before
+{
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #AAAAAA;
+}
+
+
