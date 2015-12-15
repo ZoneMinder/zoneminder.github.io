@@ -12,5 +12,6 @@ If you would like to propose a change, please do the following:
 2. Create a branch.
 3. Make your change locally and test it with `jekyll serve` and then browse to `http://localhost:4000`
 4. If things look good, submit a PR with a screenshot.
+5. If the PR gets accepted, @kylejohnson can push the updated site to the live server.
 
 Thanks!
