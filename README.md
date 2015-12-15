@@ -1,4 +1,5 @@
 This is the jekyll code for www.zoneminder.com.
+You should be able to browse a current dev snapshot of the site at http://zoneminder.github.io
 
 Install jekyll at http://jekyllrb.com/
 
