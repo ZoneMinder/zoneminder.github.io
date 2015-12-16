@@ -44,4 +44,14 @@ h2, h3 {
     color: #AAAAAA;
 }
 
+.jumbotron
+{
+	background-image: url(/images/burglar.jpg);
+	background-size: cover;
+	height: 100%;
+	color:white;
+	text-shadow: 0px 1px 1px #000;
+}
+
+
 
