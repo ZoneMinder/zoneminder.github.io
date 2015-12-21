@@ -28,3 +28,30 @@ h2, h3 {
 .thumbs img {
 	border: 1px solid #AAA;
 }
+
+.custom-bullet li {
+    display: block;
+}
+
+.custom-bullet li:before
+{
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #AAAAAA;
+}
+
+.jumbotron
+{
+	background-image: url(/images/burglar.jpg);
+	background-size: cover;
+	height: 100%;
+	color:white;
+	text-shadow: 0px 1px 1px #000;
+}
+
+
+
