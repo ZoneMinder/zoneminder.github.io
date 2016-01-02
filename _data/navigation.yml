@@ -3,6 +3,10 @@
   link: '/'
   target: '_self'
 
+- text: About
+  link: '/about/'
+  target: '_self'
+
 - text: Blog
   link: '/blog'
   target: '_self'
