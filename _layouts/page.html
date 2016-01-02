@@ -1,17 +1,14 @@
 {% include head.html %}  
 
-<div class="container">
+	{% include navigation.ext %}
 
-{% include navigation.ext %}
+	<div class="container">
 
-<header class="post-header">
-    <h2>{{ page.title }}</h2>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
-</div>
+		<header class="post-header">
+			<h2>{{ page.title }}</h2>
+		</header>
+	
+		{{ content }}
+	</div>
 
 {% include footer.html %}
