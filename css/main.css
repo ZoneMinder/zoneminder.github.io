@@ -1,29 +1,40 @@
 body {
-	border-top: solid 5px #369;
-	color: #111111;
+	color: #fff;
+	background-color: #43413E;
 }
 
 .navbar-brand {
-	color: #369 !important;
+	color: #357EBD !important;
+	font-weight: bold;
 }
 
 .navbar {
   border:0;
   border-radius: 0;
+	background-color: #3B3937;
 }
 
-h2, h3 {
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+h1 {
+	color: #016C9C;
+}
+
+h2 {
   color: #016C9C;
   border-bottom: solid 1px #369;
 }
 
 .current {
-	background-color: #FFF;
+	background-color: #43413E;
 }
 
-.current a {
-	color: #111111 !important;
+.navbar-default .navbar-nav > li.current > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
 }
+
 
 .thumbs img {
 	border: 1px solid #AAA;
@@ -46,18 +57,6 @@ h2, h3 {
 
 .jumbotron
 {
-	background-image: url(/images/burglar.png);
-	background-size: cover;
-	height: 100%;
-	color:white;
+	background-color: #3B3937;
+	padding: 15px;
 }
-
-.jumbotron .introtext
-{
-	background: rgba(0, 0, 0, 0.75); 
-	padding: 4px 8px; 
-	color: white;
-	width:70%;
-}
-
-
