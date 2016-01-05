@@ -1,62 +1,41 @@
-body {
+#top {
+	text-align: center;
+	padding: 0 125px;
+	background-color: green;
 	color: #fff;
-	background-color: #43413E;
 }
 
-.navbar-brand {
-	color: #357EBD !important;
-	font-weight: bold;
+#top h1 {
+	color: blue;
 }
 
-.navbar {
-  border:0;
-  border-radius: 0;
-	background-color: #3B3937;
+
+#top .navbar {
+	background:rgba(0,0,0,0);
+	border: 0;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 }
 
-h1 {
-	color: #016C9C;
+@media (min-width: 768px) {
+    #top .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    #top .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
-h2 {
-  color: #016C9C;
-  border-bottom: solid 1px #369;
+#info {
+	text-align: center;
+	color: #000;
 }
 
-.current {
-	background-color: #43413E;
-}
-
-.navbar-default .navbar-nav > li.current > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #fff;
-}
-
-
-.thumbs img {
-	border: 1px solid #AAA;
-}
-
-.custom-bullet li {
-    display: block;
-}
-
-.custom-bullet li:before
-{
-    content: "\e080";
-    font-family: 'Glyphicons Halflings';
-    font-size: 9px;
-    float: left;
-    margin-top: 4px;
-    margin-left: -17px;
-    color: #AAAAAA;
-}
-
-.jumbotron
-{
-	background-color: #3B3937;
-	padding: 15px;
+#info ul {
+	text-align: left;
 }
