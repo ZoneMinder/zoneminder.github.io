@@ -38,4 +38,20 @@
 
 #info ul {
 	text-align: left;
+
+}
+
+#info li {
+	display: block;
+}
+
+#info li:before {
+	content: "";
+    font-family: 'Glyphicons Halflings';
+    font-size: 19px;
+    margin-top: 4px;
+	margin-right: 5px;
+	position: relative;
+	font-weight: bold;
+    color: #3276B1;
 }
