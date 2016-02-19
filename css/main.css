@@ -1,6 +1,5 @@
 #top {
 	text-align: center;
-	padding: 0 125px;
 	background-color: green;
 	color: #fff;
 }
@@ -13,6 +12,10 @@
 #top .navbar {
 	background:rgba(0,0,0,0);
 	border: 0;
+}
+
+#top .jumbotron {
+	background-color: inherit;
 }
 
 .navbar-default .navbar-nav > li > a {
