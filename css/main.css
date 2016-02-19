@@ -38,4 +38,5 @@
 
 #info ul {
 	text-align: left;
+	list-style-image: url('/images/SVGs/Tick.svg');
 }
