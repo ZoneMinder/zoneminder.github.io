@@ -10,13 +10,18 @@
 }
 
 #top h1 {
-	color: blue;
 }
 
 
 #top .navbar {
 	background:rgba(0,0,0,0);
 	border: 0;
+	padding-top: 15px;
+}
+
+#top .navbar li {
+	padding: 10px;
+	font-size:16px;
 }
 
 #top .jumbotron {
@@ -25,6 +30,12 @@
 
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
+	padding: 0;
+}
+
+.current a {
+	color: blue !important;
+	border-bottom: 2px solid blue;
 }
 
 @media (min-width: 768px) {
@@ -51,4 +62,9 @@
 
 #footer {
 	text-align: center;
+}
+
+h2 {
+	margin-top:50px;
+	margin-bottom:30px;
 }
