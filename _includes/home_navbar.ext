@@ -1,0 +1,29 @@
+<nav id="home_navbar" class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+			{% assign navs = site.data.navigation %}
+			{% for nav in navs %}
+				{% if nav.target == '_self' %}
+					{% if page.title == nav.text %}
+				<li class="current"><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }}</a></li>
+					{% else %}
+				<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }}</a></li>
+					{% endif %}
+				{% else %}
+					<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }} <span class="{{ nav.icon }}"></span></a></li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</nav>
