@@ -61,6 +61,8 @@
 	margin-bottom:10px;
 }
 
+
+
 #info ul {
 	text-align: left;
 	list-style-image: url('/images/SVGs/Tick.svg');
@@ -73,4 +75,17 @@
 h2 {
 	margin-top:50px;
 	margin-bottom:30px;
+}
+
+.downloads img {
+	border: 2px solid #6B6F7A;
+	padding: 20px 20px;
+	margin-bottom:10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
+}
+
+.downloads p {
+    text-align:center;
 }
