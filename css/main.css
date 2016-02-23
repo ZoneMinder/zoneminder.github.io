@@ -6,10 +6,10 @@
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
-    text-shadow: black 0.3em 0.3em 0.3em;
 }
 
 #top h1 {
+	margin-bottom: 30px;
 }
 
 
@@ -33,9 +33,9 @@
 	padding: 0;
 }
 
-.current a {
-	color: blue !important;
-	border-bottom: 2px solid blue;
+.navbar-default .navbar-nav > li.current > a, .navbar-default .navbar-nav > li > a:hover {
+	color: #03A9F4;
+	border-bottom: 1px solid #03A9F4;
 }
 
 @media (min-width: 768px) {
