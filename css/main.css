@@ -56,6 +56,12 @@
 	font-size: 19px;
 }
 
+#info img {
+	border: 1px solid #6B6F7A;
+	padding: 20px 40px;
+	margin-bottom:10px;
+}
+
 #info ul {
 	text-align: left;
 	list-style-image: url('/images/SVGs/Tick.svg');
