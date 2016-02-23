@@ -16,10 +16,10 @@
 #top .navbar {
 	background:rgba(0,0,0,0);
 	border: 0;
-	padding-top: 15px;
+	padding: 10px 0px;
 }
 
-#top .navbar li {
+.navbar li {
 	padding: 10px;
 	font-size:16px;
 }
@@ -28,13 +28,13 @@
 	background-color: inherit;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: #fff;
+.navbar-nav > li > a {
+	color: #fff !important;
 	padding: 0;
 }
 
-.navbar-default .navbar-nav > li.current > a, .navbar-default .navbar-nav > li > a:hover {
-	color: #03A9F4;
+.navbar-nav > li.current > a, .navbar-nav > li > a:hover {
+	color: #03A9F4 !important;
 	border-bottom: 1px solid #03A9F4;
 }
 
