@@ -1,5 +1,6 @@
 body {
     color: #484848;
+    
 	
 }
 
@@ -36,11 +37,12 @@ body {
 .navbar-nav > li > a {
 	color: #fff !important;
 	padding: 0;
+    
 }
 
 .navbar-nav > li.current > a, .navbar-nav > li > a:hover {
 	color: #03A9F4 !important;
-	border-bottom: 1px solid #03A9F4;
+	
 }
 
 @media (min-width: 768px) {
