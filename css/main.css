@@ -98,9 +98,73 @@ h2 {
     text-align:center;
 }
 
+
+
 #createAccount {
 	width: 375px;
 	border-radius: 6px;
 	box-shadow: 0 0 6px 0 rgba(0,0,0,0.08);
 	padding: 20px 30px;
 }
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-gentoo {
+    border-left-color: #6826BB;
+}
+.bs-callout-gentoo h4 {
+    color: #6826BB;
+}
+
+.bs-callout-ubuntu {
+    border-left-color: #FF6306;
+}
+.bs-callout-ubuntu h4 {
+    color: #FF6306;
+}
+
+.bs-callout-fedora {
+    border-left-color: #00457E;
+}
+.bs-callout-fedora h4 {
+    color: #00457E;
+}
+
+
+.bs-callout-debian {
+    border-left-color: #D80852;
+}
+.bs-callout-debian h4 {
+    color: #D80852;
+}
+
+
+
+
+
+
+
