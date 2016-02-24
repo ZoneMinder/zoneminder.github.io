@@ -11,10 +11,6 @@
   link: '/blog'
   target: '_self'
 
-- text: Screenshots
-  link: '/screenshots'
-  target: '_self'
-
 - text: Downloads
   link: '/downloads'
   target: '_self'
