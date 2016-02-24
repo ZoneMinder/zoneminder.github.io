@@ -1,40 +1,64 @@
 ---
-layout: main
+layout: home
 title: Home
 permalink: /
 ---
 
+<div id="top">
+
+{% include home_navbar.ext %}
+
 <div class="jumbotron">
-
-	<img class="img-responsive img-rounded pull-right" src="/images/thumbs/console.png" alt="ZoneMinder Console" />
-
 	<h1>ZoneMinder</h1>
-	<p>A full-featured, open source and state-of-the-art video surveillance software suite which allows you to monitor your home, office, or wherever you want.  Using off the shelf hardware with any camera, you can design a system as large or as small as you need.</p>
+
+	<p class="lead">A full-featured, open source and state-of-the-art video surveillance software suite which allows you to monitor your home, office, or wherever you want.  Using off the shelf hardware with any camera, you can design a system as large or as small as you need.</p>
 
 	<p><a class="btn btn-primary btn-lg" href="/downloads/" role="button">Download Now</a></p>
 </div>
 
-<div class="row">
-	<div class="col-md-6">
-		<div class="caption"><p class="lead"><span class="glyphicon glyphicon glyphicon-thumbs-up"></span> Why ZoneMinder is so awesome</p></div>
-			<ul class="custom-bullet">
-				<li>It's free and open source.</li>
-				<li>You are in control of your data.</li>
-				<li>Works with a huge list of cameras.</li>
-				<li>Easy to install - from package or source.</li>
-				<li>APIs allow for third-party integration.</li>
-				<li>New Android and iPhone apps (3rd party).</li>
-			</ul>
+</div> <!-- end top -->
+
+<div id="info">
+
+	<h2>What people are using ZoneMinder for</h2>
+
+	<div class="row">
+		<div class="animated zoomIn col-sm-3">
+			<img  src="/images/SVGs/Home_Security.svg" alt="Home Security" />
+			<p>Home Security</p>
+		</div>
+		<div class="animated zoomIn  col-sm-3">
+			<img src="/images/SVGs/Theft_Prevention.svg" alt="Theft Prevention" />
+			<p>Theft Prevention</p>
+		</div>
+		<div class="animated zoomIn  col-sm-3">
+			<img src="/images/SVGs/Industrial_and_Commercial_Security.svg" alt="Industrial &amp; Commercial Security" />
+			<p>Industrial &amp; Commercial Security</p>
+		</div>
+		<div class="animated zoomIn col-sm-3">
+			<img src="/images/SVGs/Nanny_Cams.svg" alt="Nanny Cams" />
+			<p>Nanny Cams</p>
+		</div>
 	</div>
 
-	<div class="col-md-6">
-		<div class="caption"><p class="lead">What people are using ZoneMinder for <span class="glyphicon glyphicon-hand-left"></span></p></div>
-			<ul class="custom-bullet">
-				<li>Home Security</li>
-				<li>Theft Prevention</li>
-				<li>Industrial / Commercial Security</li>
-				<li>Nanny Cams</li>
-				<li>and much more</li>
-			</ul>	
+	<h2>Why ZoneMinder is so awesome</h2>
+
+	<div class="row">
+		<div class="col-sm-5 col-sm-offset-1">
+				<ul>
+					<li>It's free and open source.</li>
+					<li>You are in control of your data.</li>
+					<li>Works with a huge list of cameras.</li>
+				</ul>
+		</div>
+	
+		<div class="col-sm-5 col-sm-offset-1">
+				<ul>
+					<li>Easy to install - from package or source.</li>
+					<li>APIs allow for third-party integration.</li>
+					<li><a href="http://pliablepixels.github.io" target="_blank">zmNinja</a> - New mobile app.</li>
+				</ul>	
+		</div>
 	</div>
-</div>
+
+</div> <!-- end info -->

@@ -3,16 +3,12 @@
   link: '/'
   target: '_self'
 
-- text: About
-  link: '/about/'
+- text: Features
+  link: '/features/'
   target: '_self'
 
 - text: Blog
   link: '/blog'
-  target: '_self'
-
-- text: Screenshots
-  link: '/screenshots'
   target: '_self'
 
 - text: Downloads

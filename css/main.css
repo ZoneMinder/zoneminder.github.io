@@ -1,62 +1,91 @@
-body {
+#top {
+	text-align: center;
 	color: #fff;
-	background-color: #43413E;
+    margin-bottom: 0px;
+    background-image: url('/images/background2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.navbar-brand {
-	color: #357EBD !important;
-	font-weight: bold;
+#top h1 {
+	margin-bottom: 30px;
 }
 
-.navbar {
-  border:0;
-  border-radius: 0;
-	background-color: #3B3937;
+
+#top .navbar {
+	background:rgba(0,0,0,0);
+	border: 0;
+	padding: 10px 0px;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: #fff;
+.navbar li {
+	padding: 10px;
+	font-size:16px;
 }
 
-h1 {
-	color: #016C9C;
+#top .jumbotron {
+	background-color: inherit;
+}
+
+.navbar-nav > li > a {
+	color: #fff !important;
+	padding: 0;
+}
+
+.navbar-nav > li.current > a, .navbar-nav > li > a:hover {
+	color: #03A9F4 !important;
+	border-bottom: 1px solid #03A9F4;
+}
+
+@media (min-width: 768px) {
+    #top .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    #top .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+#info {
+	text-align: center;
+	color: #484848;
+	font-size: 19px;
+}
+
+#info img {
+	border: 1px solid #6B6F7A;
+	padding: 20px 40px;
+	margin-bottom:10px;
+}
+
+
+
+#info ul {
+	text-align: left;
+	list-style-image: url('/images/SVGs/Tick.svg');
+}
+
+#footer {
+	text-align: center;
 }
 
 h2 {
-  color: #016C9C;
-  border-bottom: solid 1px #369;
+	margin-top:50px;
+	margin-bottom:30px;
 }
 
-.current {
-	background-color: #43413E;
+.downloads img {
+	border: 2px solid #6B6F7A;
+	padding: 20px 20px;
+	margin-bottom:10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
 }
 
-.navbar-default .navbar-nav > li.current > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #fff;
-}
-
-
-.thumbs img {
-	border: 1px solid #AAA;
-}
-
-.custom-bullet li {
-    display: block;
-}
-
-.custom-bullet li:before
-{
-    content: "\e080";
-    font-family: 'Glyphicons Halflings';
-    font-size: 9px;
-    float: left;
-    margin-top: 4px;
-    margin-left: -17px;
-    color: #AAAAAA;
-}
-
-.jumbotron
-{
-	background-color: #3B3937;
-	padding: 15px;
+.downloads p {
+    text-align:center;
 }
