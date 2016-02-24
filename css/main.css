@@ -89,3 +89,10 @@ h2 {
 .downloads p {
     text-align:center;
 }
+
+#createAccount {
+	width: 375px;
+	border-radius: 6px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.08);
+	padding: 20px 30px;
+}
