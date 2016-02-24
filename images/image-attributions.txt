@@ -1,0 +1,5 @@
+manycams.png - https://en.wikipedia.org/wiki/Closed-circuit_television_camera#/media/File:CCTV_Cameras.png
+
+alldevices.png:
+- iphone frame https://en.wikipedia.org/wiki/IPhone_5S#/media/File:IPhone_5s.png
+- android frame  tbd
