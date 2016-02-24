@@ -24,6 +24,10 @@
 				{% endif %}
 			{% endfor %}
 			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/sign_up/">Sign Up</a></li>
+			</ul>
 		</div>
 	</div>
 </nav>
