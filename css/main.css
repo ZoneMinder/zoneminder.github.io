@@ -31,7 +31,9 @@ body {
 }
 
 #top .jumbotron {
+    padding-top:0px;
 	background-color: inherit;
+    height:250px;
 }
 
 .navbar-nav > li > a {
