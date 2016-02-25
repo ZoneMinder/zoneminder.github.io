@@ -10,60 +10,17 @@ permalink: /features/
 
 <p class="lead">ZoneMinder can scale from a single camera system to as many  your installation needs!</p>
 
+{% for feature in site.data.features %}
+{% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
 
-<div class="animated fadeIn row">
-    <div class="col-sm-4">
-        <img src="/images/alldevices.png" alt="console view" class="img-responsive img-thumbnail" />
-
-        <h3>Monitor from anywhere</h3>
-
-        <p>Access ZoneMinder from any internet-accessible device. With a full featured web based interface, as well as  Android and iOS apps, you can access ZoneMinder anywhere.</p>
-    </div>
-    
-    <div class="col-sm-4">
-        <img src="/images/manycams.png" alt="placeholder" class="img-responsive img-thumbnail">
-
-        <h3>Use any camera.  Really</h3>
-
-        <p>Don't get locked into purchasing expensive, proprietary cameras. ZoneMinder allows you to use any analog or IP-enabled camera. Need night vision? No problem. Want 4k resolution? We got ya.</p>
-
-    </div>
-    
-    <div class="col-sm-4">
-        <img src="/images/iftop.png" alt="iftop console view" class="img-responsive img-thumbnail" />
-
-        <h3>You are in control of your data</h3>
-
-        <p>In the age of the Cloud and the Internet of Things, few (people | solutions | apps | products ? ) allow you to both own your data, and control where it goes. Fully on premise, with upcomming optional secure, cloud-enhanced features.</p>
-    </div>
-</div>
-
-<div class="animated fadeIn row">
-    <div class="col-sm-4">
-        <img src="http://placehold.it/350x150" alt="placeholder" class="img-responsive img-thumbnail">
-
-        <h3>Runs on both off-the-shelf hardware, as well as horizontally-scaled server-class hardware.</h3>
-
-        <p>Suitable for home use and small business use, as wel
-    </div>
-    
-    <div class="col-sm-4">
-        <img src="/images/timeline.png" alt="timeline view" class="img-responsive img-thumbnail" />
-
-        <h3>Keep track of what matters</h3>
-
-        <p>ZoneMinder allows you to browse information intuitively. Drill down to what you want to see in a matter of seconds.</p>
-    </div>
-    
-
-    <div class="col-sm-4">
-        <img src="http://placehold.it/350x150" alt="placeholder" class="img-responsive img-thumbnail">
-
-        <h3>Actively maintained, built by those who care.</h3>
-        
-        <p>ZoneMinder is actively maintained by a team committed to open source. We have a vibrant community of contributors and participants.</p>
-        
-        
-
-    </div>
-</div>
+{% if thecycle == '1'%}<div class="row">{% endif %}
+	    <div class="col-sm-4">
+	        <img src="{{ feature.url }}" alt="{{ feature.heading }}" class="img-responsive img-rounded" />
+	
+	        <h3>{{ feature.heading }}</h3>
+	
+	        <p>{{ feature.text }}</p>
+	    </div>
+{% if thecycle == '3' or forloop.last %}</div>{% endif %}
+	
+{% endfor %}
