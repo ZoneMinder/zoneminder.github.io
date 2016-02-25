@@ -26,7 +26,8 @@
 			</ul>
 
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/sign_up/">Sign Up</a></li>
+                <li><a href="/sign_up/"><button type="button" class="btn btn-warning">Sign Up</button></a></li>
+			
 			</ul>
 		</div>
 	</div>
