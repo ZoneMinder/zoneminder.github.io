@@ -19,16 +19,28 @@
 					{% else %}
 				<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }}</a></li>
 					{% endif %}
-				{% else %}
-					<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }} <span class="{{ nav.icon }}"></span></a></li>
 				{% endif %}
 			{% endfor %}
+				<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+<ul class="dropdown-menu">
+	<li><a href="http://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
+	<li><a href="https://wiki.zoneminder.com" target="_blank">Wiki <span class="glyphicon glyphicon-new-window"></span></a></li>
+	<li><a href="https://forums.zoneminder.com" target="_blank">Forums <span class="glyphicon glyphicon-new-window"></span></a></li>
+</ul>
+				</li>
 			</ul>
 
-			<ul class="nav navbar-nav navbar-right">
-                <li><a href="/sign_up/"><button type="button" class="btn btn-warning">Sign Up</button></a></li>
+
+			<form action="//zoneminder.us12.list-manage.com/subscribe/post?u=47d86916dffc1afaf30497eaa&amp;id=619a1de908" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="navbar-form navbar-right" target="_blank" novalidate>
+				<div class="form-group">
+					<input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required class="form-control">
+				</div>
+					<div style="display:none;" aria-hidden="true"><input type="text" name="b_47d86916dffc1afaf30497eaa_619a1de908" tabindex="-1" value=""></div>
 			
-			</ul>
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning">
+			</form>
+
 		</div>
 	</div>
 </nav>

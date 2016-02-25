@@ -19,10 +19,16 @@
 					{% else %}
 				<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }}</a></li>
 					{% endif %}
-				{% else %}
-					<li><a href="{{ nav.link }}" target="{{ nav.target }}">{{ nav.text }} <span class="{{ nav.icon }}"></span></a></li>
 				{% endif %}
 			{% endfor %}
+				<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
+<ul class="dropdown-menu">
+	<li><a href="http://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
+	<li><a href="https://wiki.zoneminder.com" target="_blank">Wiki <span class="glyphicon glyphicon-new-window"></span></a></li>
+	<li><a href="https://forums.zoneminder.com" target="_blank">Forums <span class="glyphicon glyphicon-new-window"></span></a></li>
+</ul>
+				</li>
 			</ul>
 
 
@@ -32,7 +38,7 @@
 				</div>
 					<div style="display:none;" aria-hidden="true"><input type="text" name="b_47d86916dffc1afaf30497eaa_619a1de908" tabindex="-1" value=""></div>
 			
-					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning">
 			</form>
 
 		</div>
