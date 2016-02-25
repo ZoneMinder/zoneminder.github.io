@@ -8,71 +8,71 @@ permalink: /downloads/
 
 <p class="lead">ZoneMinder comes in ready made packages for many linux distributions. Take your pick:</p>
 
-<div  class="downloads" id="instructions">
+<div class="downloads" id="instructions">
 
-    <div class= "row">
+    <div class="row">
                 
         <div class="animated zoomIn col-sm-3">
-            <a class="btn hvr-grow" data-toggle="collapse" data-target="#ubuntu_details">
+            <a class="btn hvr-grow" data-toggle="collapse" href="#ubuntu_details" data-parent="#accordion">
                 <img  src="/images/Ubuntu.png" width="170px" height="169px" alt="Ubuntu" />
                 <p> Ubuntu</p>
             </a>
         </div>
 
         <div class="animated zoomIn col-sm-3">
-            <a class="btn hvr-grow" data-toggle="collapse" data-target="#rh_details">
+            <a class="btn hvr-grow" data-toggle="collapse" href="#rh_details" data-parent="#accordion">
                 <img  src="/images/RedFedCent.png" width="170px" height="169px" alt="RedHat" />
                 <p> RedHat, CentOS,Fedora</p>
             </a>
         </div>
 
         <div class="animated zoomIn col-sm-3 ">
-            <a class="btn hvr-grow" data-toggle="collapse" data-target="#deb_details">
+            <a class="btn hvr-grow" data-toggle="collapse" href="#deb_details" data-parent="#accordion">
                 <img  src="/images/Debian.png" width="170px" height="169px" alt="Debian" />
                 <p> Debian</p>
             </a>
         </div>
 
         <div class="animated zoomIn col-sm-3 ">
-            <a class="btn hvr-grow" data-toggle="collapse" data-target="#gentoo_details">
+            <a class="btn hvr-grow" data-toggle="collapse" href="#gentoo_details" data-parent="#accordion">
                 <img  src="/images/Gentoo.png" width="170px" height="169px" alt="Gentoo" />
                 <p> Gentoo</p>
             </a>
         </div>
         
-    </div> <!--row-->
-    
-    
-    <!-- instructions-->
-        <div class="row"> 
-            <div class="collapse bs-callout bs-callout-ubuntu" id="ubuntu_details" data-parent="#instructions">
+    </div>
+
+<div class="panel-group" id="accordion">
+	<div class="panel">
+            <div class="collapse bs-callout bs-callout-ubuntu" id="ubuntu_details">
                 <h4>Ubuntu</h4>
                 If you are an Ubuntu user, Isaac Connor is maintaining easy to install ZoneMinder packages. The packages included in the default Ubuntu repos are out of date, so please don't install ZoneMinder using Ubuntu's repos. Installation instructions can be found <a href="https://zoneminder.readthedocs.org/en/stable/installationguide/ubuntu.html">here</a>. Also, Bill Bunge maintains a useful wiki for Ubuntu that covers other situations that the official guide may not. You can read his wiki <a href="https://wiki.zoneminder.com/Ubuntu">here</a>.
             </div>
-        </div>
+	</div>
 
-
-        <div class="row"> 
-            <div class="collapse bs-callout bs-callout-fedora" id="rh_details" data-parent="#instructions">
+	<div class="panel">
+            <div class="collapse bs-callout bs-callout-fedora" id="rh_details">
                 <h4>Redhat, Fedora and CentOS</h4>
                 If you are a RHEL, Fedora, CentOS or SL user, Andrew Bauer is maintaining zmrepo with an up-to-date ZoneMinder package. Head over to <a href="https://zmrepo.zoneminder.com">zmrepo</a> for instructions.
             </div>
-        </div>
+	</div>
 
-        <div class="row"> 
-            <div class="collapse bs-callout bs-callout-debian" id="deb_details" data-parent="#instructions">
+	<div class="panel">
+            <div class="collapse bs-callout bs-callout-debian" id="deb_details">
                 <h4>Debian</h4>
                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
             </div>
-        </div>
+	</div>
 
-        <div class="row"> 
-            <div class="collapse bs-callout bs-callout-gentoo" id="gentoo_details" data-parent="#instructions">
+	<div class="panel">
+            <div class="collapse bs-callout bs-callout-gentoo" id="gentoo_details">
                 <h4>Gentoo</h4>
                 If you are a Gentoo user, ZoneMinder is available just by typing <code>emerge zoneminder</code>. Thanks to the Gentoo web-apps team for making this available.
             </div>
-        </div>
- </div> <!-- instructions -->
+	</div>
+</div <!-- accordion -->
+
+</div> <!-- instructions -->
     
 
 
@@ -83,7 +83,7 @@ permalink: /downloads/
     
     <div class="row"> 
         <div class="animated zoomIn col-sm-3">
-            <a class="btn hvr-grow" data-toggle="collapse" data-target="#source_details">
+            <a class="btn hvr-grow" data-toggle="collapse" href="#source_details">
                 <img src="/images/Linux.png" width="170px" height="169px"  alt="source" />
             </a>
             <p>Get Source</p>
@@ -112,7 +112,6 @@ permalink: /downloads/
     </div>
     <small>zmNinja is a companion application developed by <a href="https://github.com/pliablepixels/zmNinja/">@pliablepixels</a><br/>and is not part of the ZoneMinder server software.</small>
 </div>
-<!--
 
 <h3>Packages</h3>
 <div class="downloads">
@@ -160,8 +159,9 @@ git clone https://github.com/ZoneMinder/ZoneMinder.git
 # with keys, over ssh
 git clone git@github.com:ZoneMinder/ZoneMinder.git
 {% endhighlight %}
+	</div>
 		
-	</div> <!-- end download -->
+</div> <!-- end download -->
 
 
 
