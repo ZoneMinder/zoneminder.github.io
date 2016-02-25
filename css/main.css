@@ -22,7 +22,7 @@ body {
 #top .navbar {
 	background:rgba(0,0,0,0);
 	border: 0;
-	padding: 10px 0px;
+	padding-top: 10px;
 }
 
 .navbar li {
@@ -33,7 +33,6 @@ body {
 #top .jumbotron {
     padding-top:0px;
 	background-color: inherit;
-    height:250px;
 }
 
 .navbar-nav > li > a {
