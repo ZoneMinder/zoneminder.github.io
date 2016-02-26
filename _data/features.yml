@@ -1,20 +1,20 @@
-- heading: Monitor from anywhere
+- heading: Monitor from anywhere.
   text: Access ZoneMinder from any internet-accessible device. With a full featured web based interface, as well as  Android and iOS apps, you can access ZoneMinder anywhere.
   url: /images/alldevices.png
 
-- heading: Use any camera.  Really
+- heading: Use any camera.
   text: Don't get locked into purchasing expensive, proprietary cameras. ZoneMinder allows you to use any analog or IP-enabled camera. Need night vision? No problem. Want 4k resolution? We got ya.
   url: /images/manycams.png
 
-- heading: You are in control of your data
-  text: In the age of the Cloud and the Internet of Things, few (people | solutions | apps | products ? ) allow you to both own your data, and control where it goes. Fully on premise, with upcomming optional secure, cloud-enhanced features.
+- heading: You are in control of your data.
+  text: In the age of the Cloud and the Internet of Things, few solutions allow you to both own your data, and control where it goes. Fully on premise, with upcomming optional secure, cloud-enhanced features.
   url: /images/iftop.png
 
-- heading: Runs on both off-the-shelf hardware, as well as horizontally-scaled server-class hardware.
-  text: Suitable for home use and small business use, as wel
+- heading: Run a really small, or super big, system.
+  text: Suitable for home use and small business use, as well as multi-server enterprise deployments.  Compatible with everything from the Raspberry Pi, all the way to the latest server-class hardware.
   url: http://placehold.it/350x150
 
-- heading: Keep track of what matters
+- heading: Keep track of what matters.
   text: ZoneMinder allows you to browse information intuitively. Drill down to what you want to see in a matter of seconds.
   url: /images/timeline.png
 
