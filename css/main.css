@@ -158,3 +158,15 @@ h2 {
 #accordion .panel {
 	border: 0;
 }
+
+.dropdown {
+	text-align: left;
+}
+
+.dropdown-menu {
+	background-color: #484848;
+}
+
+.dropdown-menu > li > a {
+	color: #fff;
+}
