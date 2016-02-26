@@ -12,7 +12,7 @@
 
 - heading: Runs on both off-the-shelf hardware, as well as horizontally-scaled server-class hardware.
   text: Suitable for home use and small business use, as wel
-  url: http://placehold.it/350x150
+  url: /images/scale.png
 
 - heading: Keep track of what matters
   text: ZoneMinder allows you to browse information intuitively. Drill down to what you want to see in a matter of seconds.
@@ -20,5 +20,5 @@
 
 - heading: Actively maintained, built by those who care.
   text: ZoneMinder is actively maintained by a team committed to open source. We have a vibrant community of contributors and participants.
-  url: http://placehold.it/350x150
+  url: /images/care.png
 
