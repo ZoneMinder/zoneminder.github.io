@@ -174,3 +174,23 @@ h2 {
 .dropdown-menu > li > a {
 	color: #fff;
 }
+
+#divRecentPosts ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#divRecentPosts li {
+	border-bottom: dotted 1px #ccc;
+}
+
+#divRecentPosts a {
+	font-size: 22px;
+}
+
+#divRecentPosts p {
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+}
