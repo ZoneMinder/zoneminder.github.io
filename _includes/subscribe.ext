@@ -1,4 +1,4 @@
-<form action="//zoneminder.us12.list-manage.com/subscribe/post?u=47d86916dffc1afaf30497eaa&amp;id=619a1de908" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="navbar-form navbar-right" target="_blank" novalidate>
+<form action="//zoneminder.us12.list-manage.com/subscribe/post?u=47d86916dffc1afaf30497eaa&amp;id=619a1de908" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="navbar-form navbar-right" target="_blank" novalidate data-toggle="tooltip" data-placement="bottom" title="Subscribe to our mailing list!">
 
 	<div class="form-group">
 		<input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required class="form-control">
