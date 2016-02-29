@@ -12,7 +12,7 @@
 
 - heading: Run a really small, or super big, system.
   text: Suitable for home use and small business use, as well as multi-server enterprise deployments.  Compatible with everything from the Raspberry Pi, all the way to the latest server-class hardware.
-  url: http://placehold.it/350x150
+  url: /images/scale.png
 
 - heading: Keep track of what matters.
   text: ZoneMinder allows you to browse information intuitively. Drill down to what you want to see in a matter of seconds.
