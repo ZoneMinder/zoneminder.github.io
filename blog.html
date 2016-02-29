@@ -4,3 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
+{% for post in site.posts limit:1 %}
+<h3>{{ post.title }}</h3>
+<p class="small">{{ post.date | date: "%Y/%m/%d" }} {{ post.author }}</p>
+
+{{ post.content }}
+{% endfor %}
