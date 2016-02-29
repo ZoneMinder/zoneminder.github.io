@@ -16,17 +16,7 @@
 		</div>
 
 		<div class="col-sm-3">
-			<div id="divRecentPosts">
-				<h2>Recent Posts</h2>
-					<ul>
-					{% for post in site.posts %}
-						<li>
-							<a href="{{ post.url }}">{{ post.title }}</a>
-							<p>{{ post.date | date: "%B %d, %Y" }}</p>
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
+			{% recent_posts.ext %}
 		</div>
 	</div>
 	
