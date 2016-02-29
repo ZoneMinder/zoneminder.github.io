@@ -18,6 +18,10 @@ body {
 	margin-bottom: 30px;
 }
 
+h1 .img-responsive {
+	margin: 0 auto;
+}
+
 
 #top .navbar {
 	background:rgba(0,0,0,0);
