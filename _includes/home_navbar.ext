@@ -32,15 +32,7 @@
 			</ul>
 
 
-			<form action="//zoneminder.us12.list-manage.com/subscribe/post?u=47d86916dffc1afaf30497eaa&amp;id=619a1de908" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="navbar-form navbar-right" target="_blank" novalidate>
-				<div class="form-group">
-					<input type="email" name="EMAIL" id="mce-EMAIL" placeholder="email address" required class="form-control">
-				</div>
-					<div style="display:none;" aria-hidden="true"><input type="text" name="b_47d86916dffc1afaf30497eaa_619a1de908" tabindex="-1" value=""></div>
-			
-					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning">
-			</form>
-
+			{% include subscribe.ext %}
 		</div>
 	</div>
 </nav>
