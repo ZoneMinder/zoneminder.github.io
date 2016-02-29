@@ -1,0 +1,19 @@
+- header: Ubuntu
+  img: /images/Ubuntu.png
+  text: If you are an Ubuntu user, Isaac Connor is maintaining easy to install ZoneMinder packages. The packages included in the default Ubuntu repos are out of date, so please don't install ZoneMinder using Ubuntu's repos. Installation instructions can be found <a href="https://zoneminder.readthedocs.org/en/stable/installationguide/ubuntu.html">here</a>. Also, Bill Bunge maintains a useful wiki for Ubuntu that covers other situations that the official guide may not. You can read his wiki <a href="https://wiki.zoneminder.com/Ubuntu">here</a>.
+
+- header: RedHat
+  img: /images/RedFedCent.png
+  text: If you are a RHEL, Fedora, CentOS or SL user, Andrew Bauer is maintaining zmrepo with an up-to-date ZoneMinder package. Head over to <a href="https://zmrepo.zoneminder.com">zmrepo</a> for instructions.
+
+- header: Debian
+  img: /images/Debian.png
+  text: Bill Bunge maintains an updated Debian installation wiki which makes it very easy to install ZoneMinder on Debian. See <a href="https://wiki.zoneminder.com/Debian">here</a>.
+
+- header: Gentoo
+  img: /images/Gentoo.png
+  text: If you are a Gentoo user, ZoneMinder is available just by typing <code>emerge zoneminder</code>. Thanks to the Gentoo web-apps team for making this available.
+
+- header: Source
+  img: /images/Linux.png
+  text: If you can't a ready to run package for your system, or maybe you just prefer to build everything on your own, ZoneMinder uses the <code>cmake</code> system to build from source. See <a href="https://github.com/ZoneMinder/ZoneMinder/blob/master/README.md">here</a>.
