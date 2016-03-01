@@ -10,17 +10,42 @@ permalink: /features/
 
 <p class="lead">ZoneMinder can scale from a single camera system to as many  your installation needs!</p>
 
-{% for feature in site.data.features %}
+{% for feature in site.data.features limit:3 %}
 {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
-
 {% if thecycle == '1'%}<div class="row">{% endif %}
 	    <div class="col-sm-4">
 	        <img src="{{ feature.url }}" alt="{{ feature.heading }}" class="img-responsive img-rounded" />
+		</div>
+{% if thecycle == '3' or forloop.last %}</div>{% endif %}
+{% endfor %}
 	
+{% for feature in site.data.features limit:3 %}
+{% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+{% if thecycle == '1'%}<div class="row">{% endif %}
+	    <div class="col-sm-4">
 	        <h3>{{ feature.heading }}</h3>
 	
 	        <p>{{ feature.text }}</p>
 	    </div>
 {% if thecycle == '3' or forloop.last %}</div>{% endif %}
+{% endfor %}
+
+{% for feature in site.data.features offset:3 %}
+{% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+{% if thecycle == '1'%}<div class="row">{% endif %}
+	    <div class="col-sm-4">
+	        <img src="{{ feature.url }}" alt="{{ feature.heading }}" class="img-responsive img-rounded" />
+		</div>
+{% if thecycle == '3' or forloop.last %}</div>{% endif %}
+{% endfor %}
 	
+{% for feature in site.data.features offset:3 %}
+{% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+{% if thecycle == '1'%}<div class="row">{% endif %}
+	    <div class="col-sm-4">
+	        <h3>{{ feature.heading }}</h3>
+	
+	        <p>{{ feature.text }}</p>
+	    </div>
+{% if thecycle == '3' or forloop.last %}</div>{% endif %}
 {% endfor %}
