@@ -1,9 +1,14 @@
 body {
     color: #484848;
-    
-	
 }
 
+p.small {
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-size: 23px;
+}
 
 #top {
 	text-align: center;
@@ -22,30 +27,30 @@ h1 .img-responsive {
 	margin: 0 auto;
 }
 
+.navtainer {
+	border-bottom: 1px solid #484848;
+}
 
-#top .navbar {
+.navbar {
 	background:rgba(0,0,0,0);
 	border: 0;
-	padding-top: 10px;
+	margin-bottom: 0;
 }
 
 .navbar li {
-	padding: 10px;
 	font-size:16px;
 }
 
 #top .jumbotron {
-    padding-top:0px;
 	background-color: inherit;
 }
 
-.navbar-nav > li > a {
+.navbar a {
 	color: #fff !important;
-	padding: 0;
     
 }
 
-.navbar-nav > li.current > a, .navbar-nav > li > a:hover {
+.navbar-nav > li.current > a, .navbar a:hover {
 	color: #03A9F4 !important;
 	
 }
@@ -161,18 +166,6 @@ h1 .img-responsive {
 
 #accordion .panel {
 	border: 0;
-}
-
-.dropdown {
-	text-align: left;
-}
-
-.dropdown-menu {
-	background-color: #484848;
-}
-
-.dropdown-menu > li > a {
-	color: #fff;
 }
 
 #divRecentPosts ul {

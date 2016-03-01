@@ -1,5 +1,6 @@
-<nav id="home_navbar" class="navbar navbar-default" role="navigation">
-	<div class="container-fluid">
+<div class="navtainer">
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
@@ -7,6 +8,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
+			<a href="/" class="navbar-brand">ZoneMinder</a>
 		</div>
 
 		<div class="navbar-collapse collapse">
@@ -21,14 +23,6 @@
 					{% endif %}
 				{% endif %}
 			{% endfor %}
-				<li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
-<ul class="dropdown-menu">
-	<li><a href="http://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
-	<li><a href="https://wiki.zoneminder.com" target="_blank">Wiki <span class="glyphicon glyphicon-new-window"></span></a></li>
-	<li><a href="https://forums.zoneminder.com" target="_blank">Forums <span class="glyphicon glyphicon-new-window"></span></a></li>
-</ul>
-				</li>
 			</ul>
 
 
@@ -36,3 +30,14 @@
 		</div>
 	</div>
 </nav>
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="http://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
+			<li><a href="https://wiki.zoneminder.com" target="_blank">Wiki <span class="glyphicon glyphicon-new-window"></span></a></li>
+			<li><a href="https://forums.zoneminder.com" target="_blank">Forums <span class="glyphicon glyphicon-new-window"></span></a></li>
+		</ul>
+	</div>
+</nav>
+</div>
