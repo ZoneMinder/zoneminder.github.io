@@ -4,11 +4,11 @@ title: Features
 permalink: /features/ 
 ---
 
-<h3>ZoneMinder Features</h3>
+<h1>ZoneMinder Features</h1>
 
 <p class="lead">ZoneMinder is an integrated set of applications which provide a complete surveillance solution allowing capture, analysis, recording and monitoring of any CCTV or security cameras. </p>
 
-<p class="lead">ZoneMinder can scale from a single camera system to as many  your installation needs!</p>
+<p>ZoneMinder can scale from a single camera system to as many  your installation needs!</p>
 
 {% for feature in site.data.features limit:3 %}
 {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
@@ -23,7 +23,7 @@ permalink: /features/
 {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
 {% if thecycle == '1'%}<div class="row">{% endif %}
 	    <div class="col-sm-4">
-	        <h3>{{ feature.heading }}</h3>
+	        <h2>{{ feature.heading }}</h2>
 	
 	        <p>{{ feature.text }}</p>
 	    </div>
@@ -43,7 +43,7 @@ permalink: /features/
 {% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
 {% if thecycle == '1'%}<div class="row">{% endif %}
 	    <div class="col-sm-4">
-	        <h3>{{ feature.heading }}</h3>
+	        <h2>{{ feature.heading }}</h2>
 	
 	        <p>{{ feature.text }}</p>
 	    </div>
