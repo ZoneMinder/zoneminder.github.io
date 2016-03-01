@@ -22,7 +22,7 @@
 				{% endif %}
 			{% endfor %}
 				<li class="dropdown">
-<button class="btn-link dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></button>
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span></a>
 <ul class="dropdown-menu">
 	<li><a href="http://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
 	<li><a href="https://wiki.zoneminder.com" target="_blank">Wiki <span class="glyphicon glyphicon-new-window"></span></a></li>

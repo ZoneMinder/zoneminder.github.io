@@ -42,11 +42,7 @@ h1 .img-responsive {
 .navbar-nav > li > a {
 	color: #fff !important;
 	padding: 0;
-}
-
-.navbar-inverse .btn-link {
-	color: #fff !important;
-	border: none;
+    
 }
 
 .navbar-nav > li.current > a, .navbar-nav > li > a:hover {
