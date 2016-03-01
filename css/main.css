@@ -1,7 +1,10 @@
 body {
     color: #484848;
-    
-	
+}
+
+body > .container {
+	padding-right: 0;
+	padding-left: 0;
 }
 
 
