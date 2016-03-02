@@ -45,6 +45,10 @@ h1 .img-responsive {
 	background-color: inherit;
 }
 
+#top .jumbotron .container {
+	max-width: 600px;
+}
+
 .navbar a {
 	color: #fff !important;
     
