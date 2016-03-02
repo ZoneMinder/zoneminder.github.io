@@ -86,6 +86,9 @@ h1 {
 
 #footer {
 	text-align: center;
+	padding-top: 9px;
+	margin: 40px 0 20px;
+	border-top: 1px solid #eee;
 }
 
 #info h2 {
