@@ -93,26 +93,12 @@ h1 {
 	margin-bottom:30px;
 }
 
-.downloads img {
-	border: 2px solid #6B6F7A;
-	padding: 20px 20px;
-	margin-bottom:10px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px; 
+.row .thumbnail {
+	border: none;
 }
 
-.downloads p {
-    text-align:center;
-}
-
-
-
-#createAccount {
-	width: 375px;
-	border-radius: 6px;
-	box-shadow: 0 0 6px 0 rgba(0,0,0,0.08);
-	padding: 20px 30px;
+.caption h2 {
+	text-align: center;
 }
 
 .bs-callout {
