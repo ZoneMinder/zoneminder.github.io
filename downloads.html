@@ -8,28 +8,20 @@ permalink: /downloads/
 
 <p class="lead">To get started, you'll need to download ZoneMinder for your operating system of choice.  Packages make it super easy to install, and we offer the source code for those that want full control.</p>
 
+
+
+
 {% for download in site.data.downloads %}
-<div class="media well">
-	<div class="media-left">
-		<img src="{{ download.img }}" alt="{{ download.header }}" class="media-object" width="100px">
-	</div>
-	<div class="media-body">
-		<h2 class="media-heading">{{ download.header }}</h2>
-		<p>{{ download.text }}</p>
-	</div>
-</div>
+{% capture thecycle %}{% cycle '1', '2', '3' %}{% endcapture %}
+{% if thecycle == '1'%}<div class="row">{% endif %}
+	    <div class="col-sm-4">
+			<div class="thumbnail">
+				<img src="{{ download.img }}" alt="{{ download.header }}" class="img-responsive">
+				<div class="caption">
+					<h2>{{ download.header }}</h2>
+					<p>{{ download.text }}</p>
+				</div>
+			</div>
+		</div>
+{% if thecycle == '3' or forloop.last %}</div>{% endif %}
 {% endfor %}
-
-<h2>Download zmNinja mobile App</h2>
-
-<p class="lead">zmNinja is available for Android, iOS and a host of desktop platforms.</p>
-
-<div class="downloads">
-    <div class= "row">
-                <div class="animated zoomIn col-sm-3 hvr-grow">
-                    <a href="http://pliablepixels.github.io" target="_blank"> <img  src="/images/zmNinja.png" width="170px" height="169px" alt="zmNinja" /></a>
-                    
-                </div>
-    </div>
-    <small>zmNinja is a companion application developed by <a href="https://github.com/pliablepixels/zmNinja/">@pliablepixels</a><br/>and is not part of the ZoneMinder server software.</small>
-</div>
