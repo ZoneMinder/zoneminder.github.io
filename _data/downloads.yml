@@ -16,7 +16,7 @@
 
 - header: Source
   img: /images/Linux.png
-  text: If you can't a ready to run package for your system, or maybe you just prefer to build everything on your own, ZoneMinder uses the <code>cmake</code> system to build from source. See <a href="https://github.com/ZoneMinder/ZoneMinder/blob/master/README.md">here</a>.
+  text: If you can't use a package, or maybe you just prefer to build everything on your own, ZoneMinder uses the <code>cmake</code> system to build from source. See <a href="https://github.com/ZoneMinder/ZoneMinder/blob/master/README.md">instructions here</a>.
 
 - header: Mobile App
   img: /images/zmNinja.png
