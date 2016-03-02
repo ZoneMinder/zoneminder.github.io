@@ -2,9 +2,9 @@
 name: ZoneMinder
 title: Linux video camera security and surveillance solution.
 email: your-email@domain.com
-description: "ZoneMinder is a free, open source CCTV Linux application which supports monitoring, alerting and recording of IP, USB and analog cameras. Use it with just about any camera to monitor your home, business, crib, or anything else."
+description: "A full-featured, open source, state-of-the-art video surveillance software system."
 baseurl: ""
-url: "http://zoneminder.com"
+url: "https://zoneminder.com"
 
 # Build settings
 markdown: kramdown
