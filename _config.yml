@@ -9,3 +9,6 @@ url: "http://zoneminder.com"
 # Build settings
 markdown: kramdown
 permalinks: pretty
+
+# Links
+permalink: /blog/:categories/:year/:month/:day/:title.html
