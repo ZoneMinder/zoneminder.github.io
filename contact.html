@@ -38,17 +38,24 @@ permalink: /contact/
 			<div class="row">
 				<div class="form-group col-md-6">
 					<label class="sr-only" for="inputName">Name</label>
-					<input name="name" id="inputName" class="form-control" placeholder="Your Name" type="text">
+					<input name="name" id="inputName" class="form-control" placeholder="Your Name" type="text" required >
 				</div>
 				<div class="form-group col-md-6">
 					<label class="sr-only" for="inputEmail">Email Address</label>
-					<input name="_replyto" id="inputEmail" class="form-control" placeholder="Your Email" type="email">
+					<input name="_replyto" id="inputEmail" class="form-control" placeholder="Your Email" type="email" required >
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-md-12">
+					<label class="sr-only" for="inputSubject">Subject</label>
+					<input name="_subject" id="inputSubject" class="form-control" placeholder="Subject - What does this regard?" type="text" required >
 				</div>
 			</div>
 			
 			<div class="form-group">
 				<label class="sr-only" for="inputBody">Your Message</label>
-				<textarea name="body" id="inputBody" class="form-control" placeholder="Your Message" rows="6"></textarea>
+				<textarea name="body" id="inputBody" class="form-control" placeholder="Your Message" rows="6" required></textarea>
 			</div>
 		
 			<input type="text" name="_gotcha" style="display:none" />
