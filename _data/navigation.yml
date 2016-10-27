@@ -19,6 +19,10 @@
   link: '/contact/'
   target: '_self'
 
+- text: Support
+  link: '/support/'
+  target: '_self'
+
 - text: Documentation
   link: 'http://zoneminder.readthedocs.org/en/latest/'
   target: '_blank'
