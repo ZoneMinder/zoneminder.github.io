@@ -9,27 +9,15 @@ permalink: /support/
 		<p class="lead">Free support is available via <a href="https://forums.zoneminder.com">Forums</a> or <a href="http://webchat.freenode.net/?channels=zoneminder">IRC</a>.  For paid support and business offerings, please see below.</p>
 
 		<h2>Support</h2>
-		<table class="table">
-			<tr>
-				<td>Support availability times<td>
-			</tr>
-			<tr>
-				<td>Guaranteed respones times<td>
-			</tr>
-			<tr>
-				<td>Online case submission</td>
-			</tr>
-			<tr>
-				<td>Phone technical support</td>
-			</tr>
-		</table>
 
-		<h2>Development</h2>
-		<p>Development Services are designed to deliver a complete end-to-end development to address some specific requirements of your business and to help you achieve the most benefit from your ZoneMinder implementation. Whether the need is for a minor adjustment in functionality of ZoneMinder or for a large custom project, feel free to contact us. In addition, as part of the development service, we are able to create specifications that outline a development project and determine a solution that will meet your individual needs best.</p>
-
-		<h3>Prices</h3>
-	       
-		<p>The price for Development Services depends on the complexity of requested feature and the level of integration with existing ZoneMinder functionality. When evaluating the cost of specific development, ZoneMinder takes into consideration the added value that this implementation can bring to other ZoneMinder users.</p>
-
-		<p>Cost of development is calculated with a minimum billing period of 1 day and generally varies from $500.00 and up to $1000.00.</p>
-
+{% for support in site.data.support %}
+<div class="media support-box">
+  <div class="media-left">
+    <img class="media-object" src="{{ support.img }}" alt="{{ support.header }}">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">{{ support.header }}</h4>
+    <p>{{ support.text }}</p>
+  </div>
+</div>
+{% endfor %}

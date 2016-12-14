@@ -1,0 +1,19 @@
+- header: Professional Services
+  text: Not sure what this means, but it sounds good.
+  img: http://placehold.it/200x100
+
+- header: Custom Development
+  text: From custom features to specifc bug fixes, we can handle these on a case-by-case basis.  Development Services are designed to deliver a complete end-to-end development to address some specific requirements of your business and to help you achieve the most benefit from your ZoneMinder implementation. Whether the need is for a minor adjustment in functionality of ZoneMinder or for a large custom project, feel free to contact us. In addition, as part of the development service, we are able to create specifications that outline a development project and determine a solution that will meet your individual needs best.
+  img: http://placehold.it/200x100
+
+- header: Consultation / One Time Help
+  text: Need help with your initial setup, or with planning an entire site?  We can help with that.
+  img: http://placehold.it/200x100
+
+- header: Monthly Support Contract / Retainer
+  text: Just want to feel warm and comfy by knowing the developers behind ZoneMinder are available for support?
+  img: http://placehold.it/200x100
+
+- header: Remote Monitoring
+  text:  We'll monitor your entire network video / IP infrastructure and proactively respond to issues.  Let us take the headache out of keeping your system online and healthy.
+  img: http://placehold.it/200x100
