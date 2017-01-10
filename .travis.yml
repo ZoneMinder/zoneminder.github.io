@@ -6,5 +6,5 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 script:
- - jekyll build
- - htmlproof ./_site/ --href-ignore \# --check-html
+ - bundle exec jekyll build
+ - bundle exec htmlproof ./_site/ --href-ignore \# --check-html
