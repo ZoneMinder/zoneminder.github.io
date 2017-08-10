@@ -4,7 +4,7 @@
 
 - header: RedHat
   img: /images/RedFedCent.png
-  text: If you are a RHEL, Fedora, CentOS or SL user, Andrew Bauer is maintaining <a href="https://zmrepo.zoneminder.com">zmrepo</a>.
+  text: RHEL, Fedora, CentOS, SL and other compatible clones should refer to the following instructions to get and install ZoneMinder: <a href="https://zoneminder.readthedocs.io/en/stable/installationguide/redhat.html">Redhat - ZoneMinder Documentation</a>.
 
 - header: Debian
   img: /images/Debian.png
