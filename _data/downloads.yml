@@ -4,7 +4,7 @@
 
 - header: RedHat
   img: /images/RedFedCent.png
-  text: RHEL, Fedora, CentOS, SL and other compatible clones should refer to the <a href="https://zoneminder.readthedocs.io/en/stable/installationguide/redhat.html">Redhat - ZoneMinder Documentation</a> to get and install ZoneMinder.
+  text: RHEL, Fedora, CentOS, SL and other compatible clones should refer to the <a href="https://zoneminder.readthedocs.io/en/latest/installationguide/redhat.html">Redhat - ZoneMinder Documentation</a> to get and install ZoneMinder.
 
 - header: Debian
   img: /images/Debian.png
