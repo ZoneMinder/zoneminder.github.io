@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ZoneMinder Release 1.32.2: Tuesday\'s Gone'
+title: 'ZoneMinder Release 1.32.2: Tuesdays Gone'
 author: Andrew Bauer
 ---
 
