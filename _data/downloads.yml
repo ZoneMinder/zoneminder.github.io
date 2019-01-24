@@ -1,6 +1,6 @@
 - header: Ubuntu
   img: /images/Ubuntu.png
-  text: Isaac Connor is <a href="https://launchpad.net/~iconnor/+archive/ubuntu/zoneminder">maintaining a PPA</a>.  The packages included in the default Ubuntu repos are out of date, so please don't install ZoneMinder using Ubuntu's repos.
+  text: Isaac Connor is <a href="https://launchpad.net/~iconnor/+archive/ubuntu/zoneminder-1.32">maintaining a PPA</a>.  The packages included in the default Ubuntu repos are out of date, so please don't install ZoneMinder using Ubuntu's repos.
 
 - header: RedHat
   img: /images/Fedora.png
