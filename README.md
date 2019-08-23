@@ -6,6 +6,10 @@ Install jekyll at http://jekyllrb.com/
 To build the site locally, run `jekyll build`
 You can also have jekyll launch a local webserve with `jekyll serve`
 
+OSX Notes:
+You may need to do `bundle exec jekyll serve` if `jekyll serve` doesn't work
+
+
 
 If you would like to propose a change, please do the following:
 
