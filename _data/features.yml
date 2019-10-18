@@ -15,7 +15,7 @@
   url: /images/scale.png
 
 - heading: Advanced AI powered detection
-  text: Leverage 3rd pary contributions like the <a href='https://github.com/pliablepixels/zmeventnotification'>EventServer</a> and <a href='https://github.com/pliablepixels/zmMagik'>zmMagik</a> to get real time Object, Person detection and Blended event summaries
+  text: Leverage 3rd party contributions like the <a href='https://github.com/pliablepixels/zmeventnotification'>EventServer</a> and <a href='https://github.com/pliablepixels/zmMagik'>zmMagik</a> to get real time Object, Person detection and Blended event summaries
   url: /images/blend.gif
 
 - heading: Actively maintained, built by those who care.
