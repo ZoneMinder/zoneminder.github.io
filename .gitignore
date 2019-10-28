@@ -3,3 +3,5 @@ _site/
 Gemfile.lock
 .jekyll-metadata
 *.swp
+.jekyll-cache/*
+*.DS_Store
