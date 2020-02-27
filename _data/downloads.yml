@@ -1,10 +1,10 @@
 - header: Ubuntu
   img: /images/Ubuntu.png
-  text: Isaac Connor is <a href="https://launchpad.net/~iconnor/+archive/ubuntu/zoneminder">maintaining a PPA</a>.  The packages included in the default Ubuntu repos are out of date, so please don't install ZoneMinder using Ubuntu's repos.
+  text: Isaac Connor is <a href="https://launchpad.net/~iconnor/+archive/ubuntu/zoneminder-1.32">maintaining a PPA</a>.  The packages included in the default Ubuntu repos are out of date, so please don't install ZoneMinder using Ubuntu's repos.
 
 - header: RedHat
-  img: /images/RedFedCent.png
-  text: If you are a RHEL, Fedora, CentOS or SL user, Andrew Bauer is maintaining <a href="https://zmrepo.zoneminder.com">zmrepo</a>.
+  img: /images/Fedora.png
+  text: RHEL, Fedora, CentOS, SL and other compatible clones should refer to the <a href="https://zoneminder.readthedocs.io/en/latest/installationguide/redhat.html">Redhat - ZoneMinder Documentation</a> to get and install ZoneMinder.
 
 - header: Debian
   img: /images/Debian.png
@@ -21,3 +21,7 @@
 - header: Mobile App
   img: /images/zmNinja.png
   text: <a href="http://pliablepixels.github.io" target="_blank">zmNinja</a> is available for Android, iOS and a host of desktop platforms.  <small>zmNinja is a companion application developed by <a href="https://github.com/pliablepixels/zmNinja/">@pliablepixels</a>.</small>
+
+- header: Windows
+  img: /images/windows.png
+  text: ZoneMinder <strong>does not</strong> run on any, and is <strong>incompatible with</strong> all, versions of Windows.  We have no plans to support Windows.

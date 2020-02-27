@@ -1,0 +1,16 @@
+version: 0.2
+   
+phases:
+  install:
+    commands:
+      - gem install jekyll bundler
+  pre_build:
+    commands:
+      - bundle install
+  build:
+    commands:
+      - bundle exec jekyll build
+  post_build:
+    commands:
+      - aws s3 sync _site/ $zoneminder_s3_bucket
+
