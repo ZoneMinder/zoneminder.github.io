@@ -137,7 +137,7 @@ Also a special thank you to those who contribute monetarily. Without your donati
 - added support for named params to consoleEvents [\#2571](https://github.com/ZoneMinder/zoneminder/pull/2571) ([pliablepixels](https://github.com/pliablepixels))
 - Installation guide for Debian Stretch [\#2570](https://github.com/ZoneMinder/zoneminder/pull/2570) ([aktarus82](https://github.com/aktarus82))
 - daemonize zmcontrol [\#2563](https://github.com/ZoneMinder/zoneminder/pull/2563) ([knight-of-ni](https://github.com/knight-of-ni))
-- Added and edited tranlations to ru\_ru.php [\#2562](https://github.com/ZoneMinder/zoneminder/pull/2562) ([santos995](https://github.com/santos995))
+- Added and edited translations to ru\_ru.php [\#2562](https://github.com/ZoneMinder/zoneminder/pull/2562) ([santos995](https://github.com/santos995))
 - Add camera relative iris control methods [\#2557](https://github.com/ZoneMinder/zoneminder/pull/2557) ([cnighswonger](https://github.com/cnighswonger))
 - Camera reboot function [\#2554](https://github.com/ZoneMinder/zoneminder/pull/2554) ([cnighswonger](https://github.com/cnighswonger))
 - Dahua control improvements [\#2552](https://github.com/ZoneMinder/zoneminder/pull/2552) ([cnighswonger](https://github.com/cnighswonger))
