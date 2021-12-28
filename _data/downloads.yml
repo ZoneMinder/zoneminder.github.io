@@ -10,10 +10,6 @@
   img: /images/Debian.png
   text: Bill Bunge maintains an <a href="https://wiki.zoneminder.com/Debian">updated Debian installation wiki</a> which makes it very easy to install ZoneMinder on Debian.
 
-- header: Gentoo
-  img: /images/Gentoo.png
-  text: ZoneMinder is available just by typing <code>emerge zoneminder</code>. Thanks to the Gentoo web-apps team for making this available.
-
 - header: Source
   img: /images/Linux.png
   text: If you can't use a package, or maybe you just prefer to build everything on your own, ZoneMinder uses the <code>cmake</code> system to build from source. See <a href="https://github.com/ZoneMinder/ZoneMinder/blob/master/README.md">instructions here</a>.
