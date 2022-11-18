@@ -1,6 +1,6 @@
 <form action="https://cloud.zoneminder.com/marketing/subscriptions.html" method="post" class="navbar-form navbar-right" target="_blank" title="Subscribe to our mailing list!">
   <div class="form-group">
     <input type="email" name="email" id="mce-EMAIL" placeholder="email address" required class="form-control">
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning">
+    <input type="submit" value="Subscribe" name="action" id="mc-embedded-subscribe" class="btn btn-warning">
   </div>
 </form>
