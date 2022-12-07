@@ -1,7 +1,7 @@
 # Site settings
 name: ZoneMinder
 title: Linux video camera security and surveillance solution.
-email: your-email@domain.com
+email: info@zoneminder.com
 description: "A full-featured, open source, state-of-the-art video surveillance software system."
 baseurl: ""
 url: "https://zoneminder.com"
