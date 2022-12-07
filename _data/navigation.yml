@@ -7,8 +7,12 @@
   link: '/features/'
   target: '_self'
 
+- text: Services
+  link: 'https://cloud.zoneminder.com/services.html'
+  target: '_self'
+
 - text: Blog
-  link: '/blog'
+  link: 'https://cloud.zoneminder.com/article/list.html'
   target: '_self'
 
 - text: Downloads
