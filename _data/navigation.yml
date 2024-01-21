@@ -16,7 +16,7 @@
   target: '_self'
 
 - text: Downloads
-  link: '/downloads'
+  link: 'https://cloud.zoneminder.com/downloads.html'
   target: '_self'
 
 - text: Contact
