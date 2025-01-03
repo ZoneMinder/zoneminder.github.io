@@ -12,3 +12,4 @@ permalinks: pretty
 
 # Links
 permalink: /blog/:categories/:year/:month/:day/:title.html
+include: [".well-known"]
