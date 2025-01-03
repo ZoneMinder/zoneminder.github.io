@@ -67,7 +67,7 @@
         "currency": "USD",
         "frequency": "yearly",
         "channels": [
-          "gigthub-sponsors",
+          "github-sponsors",
           "bank",
           "paypal"
         ]
