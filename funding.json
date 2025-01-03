@@ -9,7 +9,8 @@
     "description": "A Canadian corporation to hold and maintain the assets relating to the ZoneMinder CCTV project.",
     "webpageUrl": {
       "url": "https://www.zoneminder.com",
-      "wellKnown": "https://github.com/zoneminder/zoneminder/blob/master/.well-known/funding-manifest-urls"
+      "wellKnown": "https://www.zoneminder.com/.well-known/funding-manifest-urls"
+
     }
   },
   "projects": [
@@ -19,7 +20,7 @@
       "description": "A full-featured, open source, state-of-the-art video surveillance software system.",
       "webpageUrl": {
         "url": "https://www.zoneminder.com",
-        "wellKnown": "https://github.com/zoneminder/zoneminder/blob/master/.well-known/funding-manifest-urls"
+        "wellKnown": "https://www.zoneminder.com/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
         "url": "https://github.com/zoneminder/zoneminder",
