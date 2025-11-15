@@ -34,7 +34,8 @@
 <nav class="navbar navbar-default navbar-collapse collapse">
 	<div class="container">
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="http://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
+			<li><a href="https://cloud.zoneminder.com/camera_database.html" target="_blank">Camera Database <span class="glyphicon glyphicon-new-window"></span></a></li>
+			<li><a href="https://zoneminder.readthedocs.org/en/latest/" target="_blank">Documentation <span class="glyphicon glyphicon-new-window"></span></a></li>
 			<li><a href="https://wiki.zoneminder.com" target="_blank">Wiki <span class="glyphicon glyphicon-new-window"></span></a></li>
 			<li><a href="https://forums.zoneminder.com" target="_blank">Forums <span class="glyphicon glyphicon-new-window"></span></a></li>
 		</ul>
