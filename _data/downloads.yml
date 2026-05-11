@@ -15,8 +15,8 @@
   text: If you can't use a package, or maybe you just prefer to build everything on your own, ZoneMinder uses the <code>cmake</code> system to build from source. See <a href="https://github.com/ZoneMinder/ZoneMinder/blob/master/README.md">instructions here</a>.
 
 - header: Mobile App
-  img: /images/zmNinja.png
-  text: <a href="https://zmninja.zoneminder.com" target="_blank">zmNinja</a> is available for Android, iOS and a host of desktop platforms.  <small>zmNinja is a companion application developed by <a href="https://github.com/pliablepixels">@pliablepixels</a>.</small>
+  img: /images/zmNinjaNg.png
+  text: <a href="https://pliablepixels.github.io/zmNinjaNg/" target="_blank">zmNinjaNg</a> is available for Android, iOS and a host of desktop platforms.  <small>zmNinjaNg is a companion application developed by <a href="https://github.com/pliablepixels">@pliablepixels</a>.</small>
 
 - header: Windows
   img: /images/windows.png
