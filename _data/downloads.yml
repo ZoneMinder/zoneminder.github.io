@@ -10,6 +10,10 @@
   img: /images/Debian.png
   text: Bill Bunge maintains an <a href="https://wiki.zoneminder.com/Debian">updated Debian installation wiki</a> which makes it very easy to install ZoneMinder on Debian.
 
+- header: Docker
+  img: /images/Docker.png
+  text: Official images for amd64 and arm64 are on <a href="https://hub.docker.com/r/zoneminder/zoneminder">Docker Hub</a> and the <a href="https://github.com/ZoneMinder/zmdockerfiles/pkgs/container/zoneminder">GitHub Container Registry</a>. A compose file runs ZoneMinder with MariaDB, and an <code>-es</code> image adds the event server. See <a href="https://github.com/ZoneMinder/zmdockerfiles">zmdockerfiles</a> to get started.
+
 - header: Source
   img: /images/Linux.png
   text: If you can't use a package, or maybe you just prefer to build everything on your own, ZoneMinder uses the <code>cmake</code> system to build from source. See <a href="https://github.com/ZoneMinder/ZoneMinder/blob/master/README.md">instructions here</a>.
